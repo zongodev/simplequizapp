@@ -24,9 +24,9 @@ class ScorreScreen extends StatelessWidget {
               child: Column(
                 children: [
                   const Spacer(),
-                  Text("Your scorre is :",style: GoogleFonts.kanit(fontSize: 25,color:  Colors.black),),
+                  Text("Your scorre is :",style: GoogleFonts.kanit(fontSize: 30,color:  Colors.black),),
                   const Spacer(),
-                  Text("${_questionController.nubOfCorrectAns.value* 10 }/ ${_questionController.questions.length*10}",style: GoogleFonts.kanit(fontSize: 25,color:  Colors.white),),
+                  Text("${_questionController.nubOfCorrectAns.value* 10 }/ ${_questionController.questions.length*10}",style: GoogleFonts.kanit(fontSize: 35,color:  Colors.white),),
                   const Spacer(),
                 ],
               ),
